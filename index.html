@@ -192,13 +192,13 @@
           </div>
         </div>
         <form class="inquiry-form" id="inquiryForm">
-          <form 
-  class="inquiry-form" 
-  id="inquiryForm"
-  action="mailto:lilylu998@gmail.com?subject=Product Inquiry&body=Dear Team,"
-  method="post" 
-  enctype="text/plain"
->
+        <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="cf6ca9f0-028e-48a0-9bc5-a343c414b1cf">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit Form</button>
+</form>
           <label>
             Name
             <input name="name" type="text" placeholder="Your name" required />
